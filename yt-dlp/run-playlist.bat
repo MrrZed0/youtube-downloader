@@ -40,10 +40,8 @@ for /f "usebackq delims=" %%A in ("playlists.txt") do (
         set "folder_name="
         for /f "delims=" %%I in ('yt-dlp.exe --flat-playlist --print "%%(playlist_title)s" --playlist-items 1 "!playlist_url!"') do (
             set "folder_name=%%I"
-            goto :found_name
         )
         
-        :found_name
         if not defined folder_name (
             set "folder_name=Playlist_Downloads"
         )
