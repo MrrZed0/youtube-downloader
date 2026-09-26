@@ -1,5 +1,5 @@
 * Download With Everything Included:
-Download Full RAR File Here: https://mrzed0.com/wp-content/uploads/yt-dlp.rar
+Download Full RAR File Here: https://github.com/MrrZed0/youtube-downloader/releases/tag/youtube
 
 
 Files Needed To Make This Work:
